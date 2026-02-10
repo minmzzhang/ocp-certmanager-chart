@@ -1,6 +1,23 @@
+---
 apiVersion: v2
-description: A Helm chart to serve as the Validated Patterns Template
+name: ocp-certmanager
+description: >
+  A Helm chart to deploy OpenShift cert-manager operator with proper
+  DNS nameserver configuration.
+type: application
+# This is the chart version. This version number should be incremented each
+# time you make changes to the chart and its templates, including the app
+# version. Versions are expected to follow Semantic Versioning (semver.org).
+version: 0.2.0
+
+home: https://github.com/validatedpatterns/ocp-certmanager-chart
+maintainers:
+  - name: Validated Patterns Team
+    email: validatedpatterns@googlegroups.com
+icon: https://validatedpatterns.io/images/validated-patterns.png
 keywords:
-  - pattern
-name: vp-template
-version: 0.0.1
+  - cert-manager
+  - ssl
+  - tls
+  - certificates
+  - openshift
