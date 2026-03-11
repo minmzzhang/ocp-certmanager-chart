@@ -1,0 +1,4 @@
+# Helm template files contain {{ }} and are not plain YAML
+templates/
+# Keep [ ] for yamllint; Prettier would change to []
+values.yaml
